@@ -1,0 +1,45 @@
+---
+import PortfolioTerminal from '../components/PortfolioTerminal/PortfolioTerminal.jsx';
+
+const description = "Kanishk Prabhat is an entry-level performance marketer in Noida, India, specializing in Google Ads, Meta Ads, SEO, conversion tracking, and campaign optimization.";
+const keywords = [
+  "Kanishk Prabhat",
+  "Kanishk Prabhat terminal portfolio",
+  "performance marketer Noida",
+  "digital marketer Noida",
+  "Google Ads",
+  "Meta Ads",
+  "SEO",
+  "campaign optimization",
+  "conversion tracking",
+  "GA4"
+].join(", ");
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <meta name="author" content="Kanishk Prabhat" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="kanishk@performance-marketing — zsh" />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kanishk Prabhat Portfolio" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="kanishk@performance-marketing — zsh" />
+    <meta name="twitter:description" content={description} />
+    <title>kanishk@performance-marketing — zsh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <PortfolioTerminal client:load />
+  </body>
+</html>
+
+<style is:global>
+  html, body { margin: 0; padding: 0; background: #1d0d2e; }
+</style>

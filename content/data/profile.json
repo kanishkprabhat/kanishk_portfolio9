@@ -1,0 +1,78 @@
+{
+    "name": "Kanishk Prabhat",
+    "elevatorPitch": [
+        "I'm an entry-level performance marketer who enjoys learning, experimenting, and turning ideas into measurable results. I\u2019m constantly exploring new ways to understand audiences, build better campaigns, and improve performance across Google Ads, Meta Ads, SEO, and marketing analytics."
+    ],
+    "location": "Fredericton, NB",
+    "socials": {
+        "linkedin": "https://linkedin.com/in/kanishk-prabhat",
+        "email": "kanishkprabha31@gmail.com"
+    },
+    "skills": [
+        {
+            "category": "Paid Media",
+            "items": [
+                "Google Ads",
+                "Meta Ads",
+                "LinkedIn Ads",
+                "Lead Generation",
+                "Audience Targeting",
+                "Campaign Optimization"
+            ]
+        },
+        {
+            "category": "Analytics & Tracking",
+            "items": [
+                "GA4",
+                "Google Tag Manager",
+                "Conversion Tracking",
+                "Campaign Performance Analysis"
+            ]
+        },
+        {
+            "category": "Digital Marketing",
+            "items": [
+                "SEO",
+                "WordPress",
+                "Canva",
+                "Landing Page Strategy",
+                "Creative Strategy",
+                "Funnel Strategy",
+                "A/B Testing"
+            ]
+        },
+        {
+            "category": "AI & Automation",
+            "items": [
+                "AI Website & Landing Page Creation",
+                "AI Agents",
+                "Antigravity",
+                "AI-Assisted Marketing Workflows",
+                "Marketing Automation"
+            ]
+        }
+    ],
+    "status": {
+        "default": "\ud83d\udcbb I am probably working",
+        "free": "\ud83d\udecb\ufe0f I am probably free",
+        "night": "\ud83d\ude34 I am probably sleeping",
+        "weekend": "\ud83d\ude0e I am probably weekending"
+    },
+    "certifications": [
+        {
+            "name": "Fundamentals of Digital Marketing",
+            "issuer": "Google"
+        },
+        {
+            "name": "Become an AI-Powered Marketer"
+        },
+        {
+            "name": "Introduction to Prompt Engineering for Generative AI"
+        },
+        {
+            "name": "Master Your Brand Voice",
+            "issuer": "Jack Appleby"
+        }
+    ],
+    "timezone": "America/Moncton"
+}

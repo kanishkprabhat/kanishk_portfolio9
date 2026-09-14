@@ -1,0 +1,271 @@
+---
+---
+
+<div id="nav-wrapper">
+  <nav id="nav-pill">
+    <a id="intro-link" class="pill-layer" href="#work">
+      <span>Get on with it</span>
+      <span class="down-arrow">↓</span>
+    </a>
+
+    <div id="section-links" class="pill-layer">
+      <a href="#work">Work</a>
+      <span>/</span>
+      <a href="#cv">CV</a>
+      <span>/</span>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <a id="resume-download" class="nav-side-link" href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+  <a id="terminal-switch" class="nav-side-link" href="/terminal/">Switch to Terminal?</a>
+</div>
+
+<style>
+  .pill-layer {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    line-height: 1;
+    padding-top: 0.08rem;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+  }
+
+  #intro-link {
+    gap: 0.35rem;
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 2;
+    pointer-events: auto;
+  }
+
+  #nav-pill.is-scrolled #intro-link {
+    transform: translateY(-100%);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  #section-links {
+    gap: 0.7rem;
+    transform: translateY(100%);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  #nav-pill.is-scrolled #section-links {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 2;
+    pointer-events: auto;
+  }
+
+  #nav-pill.is-scrolled #section-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 0.15rem;
+    pointer-events: auto;
+  }
+
+  #section-links span {
+    pointer-events: none;
+  }
+
+  .down-arrow {
+    display: inline-block;
+    line-height: 1;
+    margin-left: -0.08rem;
+    animation: arrow-bounce 1.2s ease-in-out infinite;
+  }
+
+  @keyframes arrow-bounce {
+    0%, 100% {
+      transform: translateY(-0.12rem);
+    }
+
+    50% {
+      transform: translateY(0.12rem);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .down-arrow {
+      animation: none;
+    }
+  }
+
+  #nav-wrapper {
+    --nav-bottom: 0.9rem;
+    --nav-height: 56px;
+    --page-left: 1.5rem;
+    --page-right: 1.5rem;
+    position: fixed;
+    bottom: var(--nav-bottom);
+    left: 0;
+    right: 0;
+    height: var(--nav-height);
+    perspective: 800px;
+    z-index: 50;
+    font-family: 'Fraktion Sans', sans-serif;
+    font-size: 0.88rem;
+    pointer-events: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    background-color: rgb(17, 24, 39);
+    padding: 1rem 3.6rem;
+    border-radius: 9999px;
+    font-family: inherit;
+    font-size: inherit;
+    transform-style: preserve-3d;
+    transition: transform 0.1s ease;
+    position: relative;
+    width: min(320px, calc(100vw - 2rem));
+    height: var(--nav-height);
+    overflow: hidden;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    pointer-events: auto;
+  }
+
+  .nav-side-link {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+
+  #resume-download {
+    left: var(--page-left);
+  }
+
+  #terminal-switch {
+    right: var(--page-right);
+  }
+
+  .nav-side-link:hover {
+    opacity: 0.8;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+
+  @media (max-width: 400px) {
+    #nav-wrapper {
+      font-size: 0.78rem;
+    }
+
+    nav {
+      gap: 0.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #nav-wrapper {
+      --page-right: 3.4375rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #nav-wrapper {
+      --page-left: max(2.75rem, calc((100vw - 1536px) / 2 + 2.75rem));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .nav-side-link {
+      top: -1.2rem;
+      transform: translateY(-100%);
+      font-size: 0.78rem;
+    }
+  }
+
+  @media (orientation: landscape) and (max-height: 600px) {
+    #nav-wrapper {
+      --nav-bottom: 0.5rem;
+      --nav-height: 50px;
+    }
+
+    #nav-wrapper {
+      font-size: 0.78rem;
+    }
+  }
+</style>
+
+<script>
+  const pill = document.getElementById('nav-pill');
+
+  pill?.addEventListener('mousemove', (e) => {
+    const rect = pill.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const centerX = rect.width / 2;
+
+    const rotateZ = ((x - centerX) / centerX) * 1;
+    pill.style.transform = `rotateZ(${rotateZ}deg)`;
+  });
+
+  pill?.addEventListener('mouseleave', () => {
+    pill.style.transition = 'transform 0.4s ease';
+    pill.style.transform = 'rotateZ(0deg)';
+  });
+
+  function updatePillState() {
+    if (!pill){return;}
+    
+    if(window.scrollY > 8){
+      pill.classList.add('is-scrolled');
+    }
+    else{
+      pill.classList.remove('is-scrolled');
+    }
+
+    const scrolled = window.scrollY;
+    const total = document.body.scrollHeight - window.innerHeight;
+    const progress = total > 0 ? (scrolled / total) * 100 : 0;
+
+    pill.style.background = `linear-gradient(to right, rgb(38, 45, 61) ${progress}%, rgb(15, 20, 39) ${progress}%)`;
+  }
+
+  updatePillState();
+  window.addEventListener('scroll', updatePillState);
+
+  pill?.addEventListener('click', (e) => {
+    if (!pill.classList.contains('is-scrolled')) return;
+    if (e.target instanceof Element && e.target.closest('a')) return;
+
+    const rect = pill.getBoundingClientRect();
+    const tapX = e.clientX - rect.left;
+    const target = tapX < rect.width / 3 ? '#work' : tapX < (rect.width * 2) / 3 ? '#cv' : '#contact';
+
+    window.location.hash = target;
+  });
+
+</script>
