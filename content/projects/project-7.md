@@ -6,7 +6,7 @@ status: "in-progress"
 tags: ["MCP", "TypeScript", "AI", "Node.js"]
 thumbnail: "/thumbnails/placeholder.png"
 video: "/videos/scout.mp4"
-repoUrl: "https://github.com/PriyanArora/Scout"
-featured: true
+repoUrl: "https://github.com/kanishkprabhat/Scout"
+featured: false
 order: 6
 ---

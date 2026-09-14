@@ -5,7 +5,7 @@ description: "Proof of concept for a defence procurement workflow with audit log
 status: "in-progress"
 tags: ["Blockchain", "Smart Contracts", "Solidity"]
 thumbnail: "/fluo.png"
-repoUrl: "https://github.com/PriyanArora/fluo"
+repoUrl: "https://github.com/kanishkprabhat/fluo"
 featured: true
 order: 8
 ---

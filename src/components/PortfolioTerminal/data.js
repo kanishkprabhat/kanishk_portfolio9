@@ -5,7 +5,7 @@
    ───────────────────────────────────────────────────────────────────── */
 
 /* ─── ASCII logo (ANSI Shadow) ─────────────────────────────────────── */
-const _PRIYAN = [
+const _KANISHK = [
   "██╗  ██╗ █████╗ ███╗   ██╗██╗███████╗██╗  ██╗ ██╗  ██╗",
   "██║ ██╔╝██╔══██╗████╗  ██║██║██╔════╝██║  ██║ ██║ ██╔╝",
   "█████╔╝ ███████║██╔██╗ ██║██║███████╗███████║ █████╔╝ ",
@@ -13,7 +13,7 @@ const _PRIYAN = [
   "██║  ██╗██║  ██║██║ ╚████║██║███████║██║  ██║ ██║  ██╗",
   "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝ ╚═╝  ╚═╝"
 ];
-const _ARORA = [
+const _PRABHAT = [
   "██████╗ ██████╗  █████╗ ██████╗ ██╗  ██╗ █████╗ ████████╗",
   "██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║  ██║██╔══██╗╚══██╔══╝",
   "██████╔╝██████╔╝███████║██████╔╝███████║███████║   ██║   ",
@@ -21,7 +21,7 @@ const _ARORA = [
   "██║     ██║  ██║██║  ██║██████╔╝██║  ██║██║  ██║   ██║   ",
   "╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   "
 ];
-export const LOGO_LINES = [..._PRIYAN, ..._ARORA];
+export const LOGO_LINES = [..._KANISHK, ..._PRABHAT];
 
 /* ─── palettes ─────────────────────────────────────────────────────── */
 export const PALETTES = {
@@ -77,7 +77,7 @@ export const FS_TREE = {
   "~/README.md": {
     type: "file",
     content:
-`Hi, I'm Priyan.
+`Hi, I'm Kanishk.
 
 You're standing in my home directory. One folder, three files.
 
@@ -504,13 +504,13 @@ Certifications
 =======
 
 LinkedIn
-    www.linkedin.com/in/priyanarora
+    www.linkedin.com/in/kanishkprabhat
 
 GitHub
-    https://github.com/PriyanArora
+    https://github.com/kanishkprabhat
 
 Email
-    priyan.arora@unb.ca
+    kanishk.prabhat@example.com
 `
   }
 };

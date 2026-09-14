@@ -1,0 +1,111 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map(project => ({
+    params: { slug: project.data.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+
+<BaseLayout>
+  <Header />
+  
+  <main class="max-w-3xl mx-auto px-6 lg:px-16 pt-[20vh] pb-24 font-sans prose prose-invert prose-blue">
+    <div class="mb-12">
+      <a href="/#work" class="text-sm font-mono text-gray-400 hover:text-white transition-colors no-underline">
+        ← Back to all work
+      </a>
+    </div>
+
+    <div class="mb-12">
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4">{project.data.title}</h1>
+      <p class="text-xl text-gray-300 mb-6">{project.data.description}</p>
+      
+      <div class="flex flex-wrap gap-2">
+        {project.data.tags.map((tag: string) => (
+          <span class="px-3 py-1 bg-gray-800 text-gray-300 rounded-full text-xs font-mono">
+            {tag}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    <article class="project-content">
+      <Content />
+    </article>
+  </main>
+</BaseLayout>
+
+<style is:global>
+  .project-content h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-weight: 700;
+  }
+  .project-content h2 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 700;
+  }
+  .project-content h3 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #BFDBFE;
+    font-weight: 600;
+  }
+  .project-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    color: #e5e7eb;
+  }
+  .project-content ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #e5e7eb;
+  }
+  .project-content li {
+    margin-bottom: 0.5rem;
+  }
+  .project-content strong {
+    color: white;
+    font-weight: 600;
+  }
+  .project-content blockquote {
+    border-left: 4px solid #3b82f6;
+    padding-left: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: italic;
+    color: #9ca3af;
+  }
+  .project-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  .project-content th {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 2px solid #374151;
+    color: white;
+  }
+  .project-content td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #374151;
+    color: #e5e7eb;
+  }
+</style>

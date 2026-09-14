@@ -5,7 +5,7 @@ description: "A microservices event platform built with Java and Spring Boot, le
 status: "in-progress"
 tags: ["Java", "Spring Boot", "Microservices", "PostgreSQL"]
 thumbnail: "/qeue.png"
-repoUrl: "https://github.com/PriyanArora/Qeue"
+repoUrl: "https://github.com/kanishkprabhat/Qeue"
 featured: true
 order: 7
 ---

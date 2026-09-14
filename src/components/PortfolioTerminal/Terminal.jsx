@@ -67,7 +67,7 @@ function HighlightedLine({ text }) {
 }
 
 /* ─── prompt ──────────────────────────────────────────────────────── */
-function PromptPrefix({ user = "priyan", host = "portfolio", cwdLabel = "~" }) {
+function PromptPrefix({ user = "kanishk", host = "portfolio", cwdLabel = "~" }) {
   return (
     <span className="pt-prompt">
       <span className="pt-prompt-user">{user}@{host}</span>
@@ -210,12 +210,12 @@ function VimViewer({ filename, content, onQuit, keyAudio }) {
 
 /* ─── Terminal shell ──────────────────────────────────────────────── */
 export default function Terminal({
-  title = "priyan@portfolio — bash",
+  title = "kanishk@portfolio — bash",
   lines,
   inputValue,
   onChange,
   onSubmit,
-  prompt = { user: "priyan", host: "portfolio" },
+  prompt = { user: "kanishk", host: "portfolio" },
   cwdLabel = "~",
   accepting = true,
   vimMode = null,

@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 import cloudflare from "@astrojs/cloudflare";
 
 export default defineConfig({
-  site: "https://priyanarora.com",
+  site: "https://kanishkprabhat.com",
 
   integrations: [
     react(),

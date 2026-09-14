@@ -80,10 +80,10 @@ function runCat(state, args) {
 function runPwd(state) {
   return [{
     kind: "out",
-    text: "/Users/priyan" + (state.cwd.length > 1 ? "/" + state.cwd.slice(1).join("/") : "")
+    text: "/Users/kanishk" + (state.cwd.length > 1 ? "/" + state.cwd.slice(1).join("/") : "")
   }];
 }
-function runWhoami() { return [{ kind: "out", text: "priyan" }]; }
+function runWhoami() { return [{ kind: "out", text: "kanishk" }]; }
 
 
 function runHelp() {

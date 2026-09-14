@@ -5,7 +5,7 @@ description: "Self-hosted GitHub App that reviews pull requests before human rev
 status: "in-progress"
 tags: ["TypeScript", "Node.js", "AWS Lambda", "SQS", "DynamoDB", "GitHub App", "Vitest"]
 thumbnail: "/PRPILOT.png"
-repoUrl: "https://github.com/PriyanArora/PRpilot"
+repoUrl: "https://github.com/kanishkprabhat/PRpilot"
 featured: true
 order: 1
 ---

@@ -8,7 +8,7 @@ import profileData from '../../content/data/profile.json';
 const allProjects = await getCollection('projects');
 const placeholderThumbnail = '/thumbnails/placeholder.png';
   const featured = allProjects                                                                                                                                                  
-      .filter(p => p.data.featured)                                                                                                                                           
+      .filter(p => p.data.featured && p.data.video && p.data.liveUrl)                                                                                                                                           
       .sort((a, b) => a.data.order - b.data.order);  
 ---
 <BaseLayout>
@@ -53,9 +53,9 @@ const placeholderThumbnail = '/thumbnails/placeholder.png';
                                 <div class="project-media"></div>
                             )}
                             <div class="project-title-row mb-1">
-                                <p class="project-title font-sans text-xl underline decoration-blue-500 underline-offset-4 transition-colors group-hover:decoration-blue-200">
+                                <a href={`/work/${project.data.slug}`} class="project-title block font-sans text-xl underline decoration-blue-500 underline-offset-4 transition-colors group-hover:decoration-blue-200">
                                     {project.data.title}
-                                </p>
+                                </a>
                                 {(project.data.repoUrl || project.data.liveUrl) && (
                                     <div class="project-link-row" role="group" aria-label={`${project.data.title} links`}>
                                         {project.data.repoUrl && (
