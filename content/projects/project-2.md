@@ -5,7 +5,7 @@ description: "Meta Lead Generation Campaign driving qualified prospects for inte
 status: "completed"
 tags: ["Meta Ads", "Lead Generation", "Performance Marketing", "Campaign Strategy"]
 thumbnail: "/thumbnails/placeholder.png"
-video: "/videos/auctus.mp4"
+video: "/videos/dwell-preview.mp4"
 liveUrl: "https://dwellconstruction.com"
 featured: true
 order: 2
