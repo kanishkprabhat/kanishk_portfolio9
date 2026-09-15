@@ -6,7 +6,7 @@ status: "completed"
 tags: ["Meta Ads", "Lead Generation", "Performance Marketing", "Campaign Strategy"]
 thumbnail: "/thumbnails/placeholder.png"
 video: "/videos/dwell-preview.mp4"
-liveUrl: "https://dwellconstruction.com"
+liveUrl: "https://case-studies-liard.vercel.app/case-studies/dwell-construction"
 featured: true
 order: 2
 ---
