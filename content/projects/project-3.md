@@ -5,7 +5,7 @@ description: "Simulated Google Ads top-of-funnel campaign strategy introducing T
 status: "completed"
 tags: ["Google Ads", "Campaign Strategy", "Audience Research", "Simulated Project"]
 thumbnail: "/thumbnails/placeholder.png"
-video: "/videos/d3.mp4"
+video: "/videos/petnest.mp4"
 liveUrl: "https://case-studies-liard.vercel.app/case-studies/thepetnest"
 featured: true
 order: 3
