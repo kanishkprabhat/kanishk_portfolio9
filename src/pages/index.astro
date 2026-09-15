@@ -53,9 +53,9 @@ const placeholderThumbnail = '/thumbnails/placeholder.png';
                                 <div class="project-media"></div>
                             )}
                             <div class="project-title-row mb-1">
-                                <a href={`/work/${project.data.slug}`} class="project-title block font-sans text-xl underline decoration-blue-500 underline-offset-4 transition-colors group-hover:decoration-blue-200">
+                                <p class="project-title font-sans text-xl underline decoration-blue-500 underline-offset-4 transition-colors group-hover:decoration-blue-200">
                                     {project.data.title}
-                                </a>
+                                </p>
                                 {(project.data.repoUrl || project.data.liveUrl) && (
                                     <div class="project-link-row" role="group" aria-label={`${project.data.title} links`}>
                                         {project.data.repoUrl && (
