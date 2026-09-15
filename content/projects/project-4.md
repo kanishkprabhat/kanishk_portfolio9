@@ -5,7 +5,7 @@ description: "Simulated YouTube lead-generation campaign for a digital marketing
 status: "completed"
 tags: ["Google Ads", "YouTube Ads", "Lead Generation", "Creative Strategy", "Simulated Project"]
 thumbnail: "/thumbnails/placeholder.png"
-video: "/videos/bsi.mp4"
+video: "/videos/ytleadgen.mp4"
 liveUrl: "https://youtube-simulated.com"
 featured: true
 order: 4
