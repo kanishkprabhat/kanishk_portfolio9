@@ -6,7 +6,7 @@ status: "completed"
 tags: ["Google Ads", "YouTube Ads", "Lead Generation", "Creative Strategy", "Simulated Project"]
 thumbnail: "/thumbnails/placeholder.png"
 video: "/videos/ytleadgen.mp4"
-liveUrl: "https://youtube-simulated.com"
+liveUrl: "https://case-studies-liard.vercel.app/case-studies/digital-marketing-course"
 featured: true
 order: 4
 ---
