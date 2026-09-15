@@ -6,7 +6,7 @@ status: "completed"
 tags: ["Google Ads", "Campaign Strategy", "Audience Research", "Simulated Project"]
 thumbnail: "/thumbnails/placeholder.png"
 video: "/videos/d3.mp4"
-liveUrl: "https://thepetnest.com"
+liveUrl: "https://case-studies-liard.vercel.app/case-studies/thepetnest"
 featured: true
 order: 3
 ---
