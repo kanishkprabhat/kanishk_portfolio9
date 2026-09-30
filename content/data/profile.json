@@ -1,9 +1,9 @@
 {
     "name": "Kanishk Prabhat",
     "elevatorPitch": [
-        "I'm an entry-level performance marketer who enjoys learning, experimenting, and turning ideas into measurable results. I\u2019m constantly exploring new ways to understand audiences, build better campaigns, and improve performance across Google Ads, Meta Ads, SEO, and marketing analytics."
+        "I'm an entry-level performance marketer who enjoys learning, experimenting, and turning ideas into measurable results. I’m constantly exploring new ways to understand audiences, build better campaigns, and improve performance across Google Ads, Meta Ads, SEO, and marketing analytics."
     ],
-    "location": "Fredericton, NB",
+    "location": "New Delhi, India",
     "socials": {
         "linkedin": "https://linkedin.com/in/kanishk-prabhat",
         "email": "kanishkprabha31@gmail.com"
@@ -53,12 +53,16 @@
         }
     ],
     "status": {
-        "default": "\ud83d\udcbb I am probably working",
-        "free": "\ud83d\udecb\ufe0f I am probably free",
-        "night": "\ud83d\ude34 I am probably sleeping",
-        "weekend": "\ud83d\ude0e I am probably weekending"
+        "default": "💻 I am probably working",
+        "free": "🛋️ I am probably free",
+        "night": "😴 I am probably sleeping",
+        "weekend": "😎 I am probably weekending"
     },
     "certifications": [
+        {
+            "name": "Google Ads Search Certification",
+            "issuer": "Google Digital Academy (Skillshop)"
+        },
         {
             "name": "Fundamentals of Digital Marketing",
             "issuer": "Google"
@@ -74,5 +78,5 @@
             "issuer": "Jack Appleby"
         }
     ],
-    "timezone": "America/Moncton"
+    "timezone": "Asia/Kolkata"
 }

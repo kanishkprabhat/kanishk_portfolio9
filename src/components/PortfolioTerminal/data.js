@@ -434,65 +434,99 @@ exports cleaned JSON + GeoJSON for downstream software.
   "~/cv.md": {
     type: "file",
     content:
-`CV
-==
+`Kanishk Prabhat
+===============
+Digital Marketing | Performance Marketing
+New Delhi, India · +91-9102395579 · kanishkprabha31@gmail.com
+LinkedIn: https://linkedin.com/in/kanishk-prabhat
 
-Elevator Pitch
---------------
-I am a Computer Science student who enjoys learning and building
-practical software projects. I like going outside my comfort zone
-and picking up whatever the problem needs, whether that is a new
-framework, a new tool, or a language I have not used before.
+Summary
+-------
+Entry-level digital marketer focused on paid acquisition and performance
+marketing. Hands-on experience planning and running Meta Ads and Google
+Ads campaigns, including audience and creative strategy, lead generation,
+and conversion tracking. Working knowledge of GA4, GTM, SEO, WordPress,
+Canva, and AI-assisted marketing and website workflows.
 
-I am open to new opportunities, collaborations, and professional
-connections.
+Skills
+------
+Paid Media
+    Google Ads · Meta Ads · LinkedIn Ads · Lead Generation ·
+    Audience Targeting · Campaign Optimization
 
-Tech Stack
+Analytics
+    GA4 · Google Tag Manager · Conversion Tracking ·
+    Campaign Performance Analysis
+
+Digital Marketing
+    SEO · WordPress · Canva · Landing Page Strategy ·
+    Creative Strategy · Funnel Strategy · A/B Testing
+
+AI & Automation
+    AI Website & Landing Page Creation · AI Agents · Antigravity ·
+    AI-Assisted Marketing Workflows · Marketing Automation
+
+Tools & Platforms
+    Google Ads · Meta Ads Manager · LinkedIn Ads · HubSpot ·
+    Google Analytics 4 · Google Tag Manager · WordPress · Canva ·
+    Antigravity · Spreadsheets
+
+Projects
+--------
+Dwell Construction — Meta Ads Lead Generation (Real Client) [Aug 2026]
+    • Ran a Meta lead-generation campaign across Delhi NCR and Meerut,
+      owning campaign structure, targeting, budgets, creative assignment,
+      lead forms, WhatsApp conversion flow, launch, and optimization.
+    • Generated 31 Instant Form leads at ₹66.19/lead and 38 WhatsApp
+      conversations at ₹35.21/conversation from a ₹3,389.80 spend.
+    • Client issued roughly 8–10 quotations to prospects sourced from
+      the campaign.
+
+JSN Silicon Valley — Meta Ads WhatsApp Lead Generation (Real Client) [Sep 2026]
+    • Ran a Meta WhatsApp lead-generation campaign for a residential
+      solar company in Sambhal, managing campaign structure, targeting,
+      creative strategy, launch, and performance analysis.
+    • Generated 238 messaging conversations at ₹18.01/conversation from
+      ₹4,287.42 spend, with 190,564 impressions and 83,608 reach.
+    • Analyzed creative and placement performance to identify lower-cost
+      conversation acquisition opportunities.
+
+ThePetNest — Google Display Network TOFU Strategy (Simulated)
+    • Planned a top-of-funnel awareness campaign covering audience
+      segmentation, custom intent, geographic targeting, creative angles,
+      budget assumptions, KPIs, landing-page considerations, and remarketing.
+
+Experience
 ----------
-Languages
-    JavaScript · TypeScript · Java · C · SQL
+Sikharthy Infotech Pvt. Ltd. — Marketing Intern [May 2023 – Jul 2023]
+    • Researched B2B prospects and supported outreach, pitching,
+      content, and marketing activities.
+    • Helped convert 2 key clients through prospecting and marketing support.
 
-Frontend
-    React · Next.js · Astro · D3.js · Tailwind CSS · GSAP ·
-    HTML · CSS
-
-Backend
-    Node.js · Express · Spring Boot · REST APIs · gRPC ·
-    JWT authentication · Zod
-
-Databases
-    MongoDB · DynamoDB · MySQL · Supabase · PostgreSQL
-
-Cloud and Tools
-    AWS Lambda · API Gateway · SQS · Parameter Store · S3 ·
-    CloudFront · Docker · GitHub Actions · Vercel · Render ·
-    Cloudflare · Git · Maven · npm workspaces · Vitest · Jest ·
-    Supertest · Flyway
+Nblik — Community Manager / Reporting Manager Intern [Apr 2023 – Jun 2023]
+    • Onboarded 75+ active users in 48 hours and managed community
+      engagement across writers and readers.
+    • Promoted to Reporting Manager within 14 days; managed and mentored
+      10+ community managers and supported retention and reporting initiatives.
 
 Education
 ---------
-Bachelor of Computer Science
-University of New Brunswick
-September 2024 — May 2028
+Advanced Digital Marketing
+    Delhi Institute of Digital Marketing [Apr 2026 – Aug 2026]
 
-    2024/25 Assessment Year GPA   3.6 / 4.3
-    2025/26 Assessment Year GPA   4.0 / 4.3
-    2026 Summer GPA               4.0 / 4.3
-    CGPA                          3.9 / 4.3
+Bachelor of Business Administration (BBA)
+    Sikkim Manipal Institute of Technology (SMU) [2021 – 2024]
 
-Awards
-------
-    Dean's List                                  2025 — 2026
-    UNB Scholarship for Academic Excellence      2024 — 2025
+Class XII, Commerce/Business
+    Doon Senior Secondary School [2019 – 2021]
 
 Certifications
 --------------
-    IBM JavaScript Programming with React, Node
-        and MongoDB Specialization               January 2026
-
-    IBM Java Developer Professional Certificate  January 2026
-
-    IBM Introduction to DevOps                   October 2025
+    • Google Ads Search Certification — Google Digital Academy (Skillshop) (2026)
+    • Fundamentals of Digital Marketing — Google
+    • Become an AI-Powered Marketer
+    • Introduction to Prompt Engineering for Generative AI
+    • Master Your Brand Voice — Jack Appleby
 `
   },
 
@@ -503,14 +537,20 @@ Certifications
 `Contact
 =======
 
-LinkedIn
-    www.linkedin.com/in/kanishkprabhat
+Name
+    Kanishk Prabhat
 
-GitHub
-    https://github.com/kanishkprabhat
+Phone
+    +91-9102395579
 
 Email
-    kanishk.prabhat@example.com
+    kanishkprabha31@gmail.com
+
+LinkedIn
+    https://linkedin.com/in/kanishk-prabhat
+
+Location
+    New Delhi, India
 `
   }
 };

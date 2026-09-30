@@ -145,14 +145,14 @@ function runSkills() {
 function runCampaigns() {
   return [
     { kind: "blank" },
-    { kind: "out", text: "1. Dwell Construction — Meta Ads Lead Generation (Real Client)" },
+    { kind: "out", text: "1. Dwell Construction — Meta Ads Lead Generation (Real Client) [Aug 2026]" },
     { kind: "muted", text: "   Generated 31 Instant Form leads at ₹66.19/lead and 38 WhatsApp conversations." },
     { kind: "blank" },
-    { kind: "out", text: "2. ThePetNest — Google Display Network TOFU Strategy (Practice Project)" },
-    { kind: "muted", text: "   Planned awareness campaign covering segmentation, custom intent, and remarketing." },
+    { kind: "out", text: "2. JSN Silicon Valley — Meta Ads WhatsApp Lead Gen (Real Client) [Sep 2026]" },
+    { kind: "muted", text: "   Generated 238 conversations at ₹18.01/conv from ₹4,287 spend (190k impressions)." },
     { kind: "blank" },
-    { kind: "out", text: "3. Digital Marketing Course — YouTube Lead Gen (Illustrative Simulation)" },
-    { kind: "muted", text: "   Configured video lead-gen campaign targeting Delhi, Noida, and Ghaziabad." },
+    { kind: "out", text: "3. ThePetNest — Google Display Network TOFU Strategy (Simulated)" },
+    { kind: "muted", text: "   Planned awareness campaign covering segmentation, custom intent, and remarketing." },
     { kind: "blank" }
   ];
 }
@@ -160,10 +160,11 @@ function runCampaigns() {
 function runCertifications() {
   return [
     { kind: "blank" },
-    { kind: "out", text: "- Fundamentals of Digital Marketing (Google)" },
+    { kind: "out", text: "- Google Ads Search Certification — Google Digital Academy (Skillshop) (2026)" },
+    { kind: "out", text: "- Fundamentals of Digital Marketing — Google" },
     { kind: "out", text: "- Become an AI-Powered Marketer" },
     { kind: "out", text: "- Introduction to Prompt Engineering for Generative AI" },
-    { kind: "out", text: "- Master Your Brand Voice (Jack Appleby)" },
+    { kind: "out", text: "- Master Your Brand Voice — Jack Appleby" },
     { kind: "blank" }
   ];
 }
@@ -176,6 +177,7 @@ function runResume() {
     { kind: "muted", text: "Nblik — Community Manager / Reporting Manager Intern (Apr 2023 – Jun 2023)" },
     { kind: "blank" },
     { kind: "out", text: "Education:" },
+    { kind: "muted", text: "Advanced Digital Marketing — Delhi Institute of Digital Marketing (Apr 2026 – Aug 2026)" },
     { kind: "muted", text: "BBA — Sikkim Manipal Institute of Technology (SMU) (2021 – 2024)" },
     { kind: "muted", text: "Class XII, Commerce/Business — Doon Senior Secondary School (2019 – 2021)" },
     { kind: "blank" },
@@ -188,7 +190,8 @@ function runContact() {
   return [
     { kind: "blank" },
     { kind: "out", text: "Name: Kanishk Prabhat" },
-    { kind: "out", text: "Location: Noida, India" },
+    { kind: "out", text: "Location: New Delhi, India" },
+    { kind: "out", text: "Phone: +91-9102395579" },
     { kind: "out", text: "Email: kanishkprabha31@gmail.com" },
     { kind: "out", text: "LinkedIn: https://linkedin.com/in/kanishk-prabhat" },
     { kind: "blank" }
