@@ -8,7 +8,7 @@ thumbnail: "/thumbnails/placeholder.png"
 video: "/videos/dwell-preview.mp4"
 liveUrl: "https://case-studies-liard.vercel.app/case-studies/dwell-construction"
 featured: true
-order: 2
+order: 1
 ---
 
 <div class="flex items-center gap-3 font-mono text-xs font-bold uppercase tracking-widest text-emerald-400 mb-2 mt-8"><span>01 / Project Overview</span></div>
